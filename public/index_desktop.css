@@ -3,10 +3,16 @@
         background-color: #eeecce;
     }
 
-    h4{ 
-        vertical-align: top;
+    h4{    
         text-align: center;
-        font-size: 24px;
+        font-size: 40px;
+        text-decoration: underline;
+        overflow:hidden;
+        text-overflow: ellipsis;
+    }
+    
+    h4:hover{
+        overflow:visible;
     }
 
     #tum_icerik{
@@ -31,16 +37,21 @@
         background-color: aquamarine;
         border: 2px solid red;
         width: 15%;
+        min-width: 100px;
     }
 
     .navigasyon_liste{
         background-color: blueviolet;
         list-style: upper-roman inside;
         line-height: 50px;
-        padding-left: 10px;
-        vertical-align: top;
+        padding-left: 10px;       
+        overflow: hidden;
+        text-overflow: ellipsis;             
     }
-
+    
+    .navigasyon_liste:hover{
+        overflow:visible;
+    }
     .icerik{
         display: flex;
         width: 70%;
@@ -50,6 +61,7 @@
         background-color: aqua;
         border: 2px solid red;
         width: 15%;
+        min-width: 100px;       
     }
 
     .icindekiler_liste{      
@@ -57,15 +69,33 @@
         list-style: square inside;
         line-height: 50px;
         padding-left: 10px;
+        overflow:hidden;
+        text-overflow: ellipsis;     
     }
     
+    .icindekiler_liste:hover{
+        overflow:visible;
+    }
     .ortak_link{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 34px;
+        text-decoration:none;
     }
     
+    .ortak_link:link{
+        color: red;
+    }
+
     .ortak_link:visited{
         color: black;
+    }
+
+    .ortak_link:hover{
+        color: yellow;
+    }
+
+    .ortak_link:active{
+        color: green;
     }
 
     #satir{
