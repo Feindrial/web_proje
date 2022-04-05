@@ -1,0 +1,87 @@
+@media only screen and (max-width:1920px){
+    body{
+        background-color: #eeecce;
+    }
+
+    h4{ 
+        vertical-align: top;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    #tum_icerik{
+        width: 84%;
+        margin: auto;
+    }
+    
+    #baslik{
+        background-color: #fdfbe0;
+        border: 4px solid rgb(0, 255, 234);  
+    }
+    
+    .baslik_yazi{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 5px;
+        font-style: oblique;
+        text-shadow: 2px 2px 4px black; 
+    }
+
+    .navigasyon{
+        background-color: aquamarine;
+        border: 2px solid red;
+        width: 15%;
+    }
+
+    .navigasyon_liste{
+        background-color: blueviolet;
+        list-style: upper-roman inside;
+        line-height: 50px;
+        padding-left: 10px;
+        vertical-align: top;
+    }
+
+    .icerik{
+        display: flex;
+        width: 70%;
+    }
+
+    .icindekiler{
+        background-color: aqua;
+        border: 2px solid red;
+        width: 15%;
+    }
+
+    .icindekiler_liste{      
+        background-color: blueviolet;
+        list-style: square inside;
+        line-height: 50px;
+        padding-left: 10px;
+    }
+    
+    .ortak_link{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 34px;
+    }
+    
+    .ortak_link:visited{
+        color: black;
+    }
+
+    #satir{
+        display: flex; 
+    }
+
+    #sutun{
+        
+    }
+
+    .icerik_sutun{
+
+    }
+
+    .deneme{
+        color: red;
+    }
+
+}
