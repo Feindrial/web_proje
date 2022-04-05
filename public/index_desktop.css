@@ -1,12 +1,25 @@
-@media only screen and (max-width:1920px){
+@media only screen and (min-width:1021px){
+    
     body{
-        background-color: #eeecce;
+        background-color: #FFF1E6;
     }
 
-    h4{ 
-        vertical-align: top;
+    figure{
+        background-image: linear-gradient(rgb(125, 214, 187), rgb(235, 252, 252));
+        border-radius: 5%;
+    }
+
+    h4{    
         text-align: center;
-        font-size: 24px;
+        font-size: 40px;
+        text-decoration: underline;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        color: #a03825;
+    }
+    
+    h4:hover{
+        overflow:visible;
     }
 
     #tum_icerik{
@@ -15,9 +28,9 @@
     }
     
     #baslik{
-        background-color: #fdfbe0;
-        border: 4px solid rgb(0, 255, 234); 
-        
+        background-color: #EDDCD2;
+        border: 4px solid black; 
+      
 
     }
     
@@ -26,62 +39,95 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         letter-spacing: 5px;
         font-style: oblique;
+        font-size: 40pt;
         text-shadow: 2px 2px 4px black; 
-        
+        color: #721b0c;
+        margin: -1px;
+        padding: 10px;
     }
     
     .navigasyon{
-        background-color: aquamarine;
-        border: 2px solid red;
+        background-image: linear-gradient(#EDDCD2, #a0ebda);
+        border: 4px dotted #ffb5bf;
         width: 15%;
+        min-width: 100px;
     }
 
     .navigasyon_liste{
-        background-color: blueviolet;
         list-style: upper-roman inside;
         line-height: 50px;
-        padding-left: 10px;
-        vertical-align: top;
+        padding-left: 10px;       
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 10%;             
+    }
+    
+    .navigasyon_liste:hover{
+        overflow:visible;
     }
 
     .icerik{
-        
         display: flex;
         width: 70%;
         font-family: Arial, Helvetica, sans-serif;
-        /*font-size,word-spacing, ;*/
-        font-style: normal;
-       
-        
-        
-     
-
+        font-style: normal;  
+        padding: 1.5%;               
     }
     .tanim{
-        color: red;
+        color: rgb(184, 79, 61);
         font-style: italic;
+        font-size: x-large;
     }
 
     .icindekiler{
-        background-color: aqua;
-        border: 2px solid red;
+        background-image: linear-gradient(#EDDCD2, #a0ebda);
+        border: 4px dotted #ffb5bf;
         width: 15%;
+        min-width: 100px;       
+    }
+
+    .resim{
+        border: 10px solid black;
+        border-radius: 5%;
+    }
+
+    .resim_yazi{
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 4px;
+        color: #d67564;
+        font-weight: bold;
+        display: inline-table;
+        border-bottom: 2px solid black;
     }
 
     .icindekiler_liste{      
-        background-color: blueviolet;
         list-style: square inside;
         line-height: 50px;
         padding-left: 10px;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        padding: 10%;             
     }
     
+    .icindekiler_liste:hover{
+        overflow:visible;
+    }
     .ortak_link{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 34px;
+        text-decoration:none;
     }
     
+    .ortak_link:link{
+        color: #d67564;
+    }
+
     .ortak_link:visited{
         color: black;
+    }
+
+    .ortak_link:hover{
+        color: #70a9d1;
     }
 
     #satir{
@@ -93,12 +139,11 @@
     }
 
     .icerik_sutun{
-
     }
-
+    
     #iletisim{
         text-align: center;
-        background-color: #9b997f;
+        background-color: #a0ebda;
         border: 2px solid rgb(0, 0, 0);
     }
 
