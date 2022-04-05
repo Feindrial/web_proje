@@ -1,6 +1,6 @@
 h4{
     position: relative;
-    bottom: 460px;
+    bottom: 500px;
     text-align: center;
     font-size: 24px;
     
@@ -40,6 +40,7 @@ qweqweqwe
     bottom: 450px;
     line-height: 50px;
     padding-left: 10px;
+    
 }
 
 #icindekiler{
@@ -53,9 +54,10 @@ qweqweqwe
     background-color: blueviolet;
     list-style: square inside;
     position: relative;
-    bottom: 450px;
+    bottom: 200px;
     line-height: 50px;
     padding-left: 10px;
+    
 }
 
 .ortak_link{
