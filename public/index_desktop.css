@@ -81,7 +81,12 @@
     }
 
     #iletisim{
+        text-align: center;
+        background-color: #9b997f;
         border: 2px solid rgb(0, 0, 0);
     }
 
+    .deneme{
+        display: inline-block;
+    }
 }
