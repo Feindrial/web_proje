@@ -80,8 +80,8 @@
 
     }
 
-    .deneme{
-        color: red;
+    #iletisim{
+        border: 2px solid rgb(0, 0, 0);
     }
 
 }
