@@ -22,7 +22,9 @@
     
     #baslik{
         background-color: #fdfbe0;
-        border: 4px solid rgb(0, 255, 234);  
+        border: 4px solid rgb(0, 255, 234); 
+        
+
     }
     
     .baslik_yazi{
@@ -31,8 +33,9 @@
         letter-spacing: 5px;
         font-style: oblique;
         text-shadow: 2px 2px 4px black; 
+        
     }
-
+    
     .navigasyon{
         background-color: aquamarine;
         border: 2px solid red;
@@ -53,8 +56,21 @@
         overflow:visible;
     }
     .icerik{
+        
         display: flex;
         width: 70%;
+        font-family: Arial, Helvetica, sans-serif;
+        /*font-size,word-spacing, ;*/
+        font-style: normal;
+       
+        
+        
+     
+
+    }
+    .tanim{
+        color: red;
+        font-style: italic;
     }
 
     .icindekiler{
