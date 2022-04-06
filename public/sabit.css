@@ -1,0 +1,57 @@
+body{
+    background-color: #FFF1E6;
+}
+
+h4:hover{
+    overflow:visible;
+}
+#baslik{
+    background-color: #EDDCD2;
+    border: 4px solid black; 
+  
+
+}
+.navigasyon_liste:hover{
+    overflow:visible;
+}
+.tanim{
+    color: rgb(255, 136, 0);
+    font-style: italic;
+    font-size: x-large;
+}
+.resim{
+    width: 100%;
+}
+.resim_yazi{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+    color: #d67564;
+    font-weight: bold;
+    display: inline-table;
+    border-bottom: 2px solid black;
+}
+.icindekiler_liste:hover{
+    overflow:visible;
+}
+.ortak_link:link{
+    color: #d67564;
+}
+.ortak_link:visited{
+    color: black;
+}
+
+.ortak_link:hover{
+    color: #70a9d1;
+}
+
+#satir{
+    display: flex; 
+}
+.icerik_sutun{
+}
+#sutun{
+        
+}
+.iletisim_yukari{
+    display: inline-block;
+}
