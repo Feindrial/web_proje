@@ -32,6 +32,16 @@
         text-overflow: ellipsis;
         color: #a03825;
     }
+    h2{
+        color: rgb(184, 79, 61);
+        font-style:oblique;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 6px;
+        
+        
+
+
+    }
 
     #tum_icerik{
         width: 84%;
@@ -47,7 +57,8 @@
         margin-right: -1.2vw;
         padding-left: 1.2vw;
         
-        
+        background-color:#ddd5d4       
+       
     }
     
     .baslik_yazi{

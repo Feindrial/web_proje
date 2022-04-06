@@ -17,19 +17,12 @@ h4:hover{
 .tanim{
     color: rgb(255, 136, 0);
     font-style: italic;
-    font-size: x-large;
+    font-size: 10px;
 }
 .resim{
     width: 100%;
 }
-.resim_yazi{
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 4px;
-    color: #d67564;
-    font-weight: bold;
-    display: inline-table;
-    border-bottom: 2px solid black;
-}
+
 .icindekiler_liste:hover{
     overflow:visible;
 }
@@ -59,20 +52,22 @@ h4:hover{
     figure{
         background-image: linear-gradient(rgb(125, 214, 187), rgb(235, 252, 252));
         border-radius: 5%;
-        width: 50%;
-        position: relative;
+        width: 100%;
+        
+    }
+    .figur_mobil{
+        width: 25px;
     }
     .figur_sol{
-        right: 30px;
+        right: 10px;
         float: left;
-        margin-right: 10px;
-        
-        
+        margin-left: 0px;
+                    
     }
     .figur_sag{
         left: 30px;
-        float: right;
-        margin-left: 10px;
+        margin-left: 0px;
+        
     }
 
     h4{    
@@ -89,12 +84,14 @@ h4:hover{
         margin: auto;
     }
     #kucuk_baslik{
+        font-size: 5px;
         text-align: left;
-        border-top: 4px solid #e68b7b;
-        border-bottom: 4px solid #e68b7b;
+        border-top: 2px solid #e68b7b;
+        border-bottom: 2px solid #e68b7b;
         margin-left: -1.2vw;
         margin-right: -1.2vw;
         padding-left: 1.2vw;
+        
         
     }
     
@@ -114,12 +111,12 @@ h4:hover{
         background-image: linear-gradient(#EDDCD2, #a0ebda);
         border: 4px dotted #ffb5bf;
         width: 15%;
-        min-width: 100px;
+        min-width: 50px;
     }
 
     .navigasyon_liste{
-        list-style: upper-roman inside;
-        line-height: 50px;
+        list-style: none;
+        line-height: 20px;
         padding-left: 10px;       
         overflow: hidden;
         text-overflow: ellipsis;
@@ -138,19 +135,19 @@ h4:hover{
         font-size: 1vw;
         text-align: justify;
         text-justify: inter-word;
-        margin-right: 50px;
+        
     }
 
     .icindekiler{
         background-image: linear-gradient(#EDDCD2, #a0ebda);
         border: 4px dotted #ffb5bf;
         width: 15%;
-        min-width: 100px;       
+        min-width: 50px;       
     }
 
     .icindekiler_liste{      
-        list-style: square inside;
-        line-height: 50px;
+        list-style: none;
+        line-height: 10px;
         padding-left: 10px;
         overflow:hidden;
         text-overflow: ellipsis;
@@ -162,7 +159,15 @@ h4:hover{
         font-size: 1.3vw;
         text-decoration:none;
     }
-    
+    .resim_yazi{
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
+        color: #d67564;
+        font-weight: bold;
+        
+        display: block;
+        border-bottom: 1px solid black;
+    }
     
 
     
@@ -174,9 +179,10 @@ h4:hover{
         text-align: center;
         background-color: #a0ebda;
         border: 2px solid rgb(0, 0, 0);
-        height: 25vh;
+        height: 8vh;
 
     }
+    
     .iletisim_yazi{
         font-size: 1.1vw;
     }
