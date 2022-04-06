@@ -1,10 +1,3 @@
-body{
-    background-color: #FFF1E6;
-}
-
-h4:hover{
-    overflow:visible;
-}
 
 @media only screen and (min-width:1024px){
 
@@ -55,12 +48,7 @@ h4:hover{
         margin: auto;
     }
     
-    #baslik{
-        background-color: #EDDCD2;
-        border: 4px solid black; 
-      
-
-    }
+   
     #kucuk_baslik{
         text-align: left;
         border-top: 4px solid #e68b7b;
@@ -101,9 +89,7 @@ h4:hover{
         padding: 10%;             
     }
     
-    .navigasyon_liste:hover{
-        overflow:visible;
-    }
+    
 
     .icerik{
         display: flex;
@@ -120,11 +106,7 @@ h4:hover{
         margin-right: 50px;
     }
 
-    .tanim{
-        color: rgb(255, 136, 0);
-        font-style: italic;
-        font-size: x-large;
-    }
+    
 
     .icindekiler{
         background-image: linear-gradient(#EDDCD2, #a0ebda);
@@ -133,18 +115,9 @@ h4:hover{
         min-width: 100px;       
     }
 
-    .resim{
-        width: 100%;
-    }
+    
 
-    .resim_yazi{
-        font-family: Arial, Helvetica, sans-serif;
-        letter-spacing: 4px;
-        color: #d67564;
-        font-weight: bold;
-        display: inline-table;
-        border-bottom: 2px solid black;
-    }
+   
 
     .icindekiler_liste{      
         list-style: square inside;
@@ -155,37 +128,19 @@ h4:hover{
         padding: 10%;             
     }
     
-    .icindekiler_liste:hover{
-        overflow:visible;
-    }
+   
     .ortak_link{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 1.3vw;
         text-decoration:none;
     }
     
-    .ortak_link:link{
-        color: #d67564;
-    }
+    
 
-    .ortak_link:visited{
-        color: black;
-    }
+    
+    
 
-    .ortak_link:hover{
-        color: #70a9d1;
-    }
-
-    #satir{
-        display: flex; 
-    }
-
-    #sutun{
-        
-    }
-
-    .icerik_sutun{
-    }
+    
     
     #iletisim{
         text-align: center;
@@ -198,7 +153,5 @@ h4:hover{
         font-size: 1.1vw;
     }
 
-    .iletisim_yukari{
-        display: inline-block;
-    }
+    
 }
