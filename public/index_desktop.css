@@ -1,25 +1,26 @@
-@media only screen and (min-width:1021px){
-    
-    body{
-        background-color: #FFF1E6;
-    }
+body{
+    background-color: #FFF1E6;
+}
+
+h4:hover{
+    overflow:visible;
+}
+
+@media only screen and (min-width:770px){
 
     figure{
         background-image: linear-gradient(rgb(125, 214, 187), rgb(235, 252, 252));
         border-radius: 5%;
+        width: 50%;
     }
 
     h4{    
         text-align: center;
-        font-size: 40px;
+        font-size: 1.2vw;
         text-decoration: underline;
         overflow:hidden;
         text-overflow: ellipsis;
         color: #a03825;
-    }
-    
-    h4:hover{
-        overflow:visible;
     }
 
     #tum_icerik{
@@ -73,6 +74,11 @@
         font-style: normal;  
         padding: 1.5%;               
     }
+
+    .icerik_yazi{
+        font-size: 1vw;
+    }
+
     .tanim{
         color: rgb(184, 79, 61);
         font-style: italic;
@@ -87,8 +93,7 @@
     }
 
     .resim{
-        border: 10px solid black;
-        border-radius: 5%;
+        width: 100%;
     }
 
     .resim_yazi{
@@ -114,7 +119,7 @@
     }
     .ortak_link{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 34px;
+        font-size: 1.1vw;
         text-decoration:none;
     }
     
