@@ -40,6 +40,13 @@ h4:hover{
         color: #a03825;
     }
     h2{
+        color: rgb(184, 79, 61);
+        font-style:oblique;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 6px;
+        
+        
+
 
     }
 
@@ -61,8 +68,8 @@ h4:hover{
         margin-left: -1.2vw;
         margin-right: -1.2vw;
         padding-left: 1.2vw;
-        color: rgb(184, 79, 61);
-       
+        
+        background-color:#ddd5d4       
        
     }
     
